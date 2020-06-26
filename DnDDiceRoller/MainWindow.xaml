@@ -7,8 +7,6 @@
         mc:Ignorable="d"
         Title="DnD Dice Roller" Height="500" Width="800">
     <Grid>
-        <Button Content="Roll" HorizontalAlignment="Left" Margin="22,32,0,0" VerticalAlignment="Top" Width="182" Click="TestDie" RenderTransformOrigin="0.51,0.556" Height="44"></Button>
-        <Label x:Name="rollOutput" Content="Label" HorizontalAlignment="Left" Margin="22,92,0,0" VerticalAlignment="Top" Height="33" Width="182" Background="White" FontFamily="Rockwell" FontSize="20" FontWeight="Bold"/>
-
+       
     </Grid>
 </Window>

@@ -12,11 +12,5 @@ namespace DnDDiceRoller
         {
             InitializeComponent();
         }
-
-        private void TestDie(object sender, RoutedEventArgs e)
-        {
-            Die die = new Die("Fuck", 0, 10);
-            rollOutput.Content = die.roll();
-        }
     }
 }
