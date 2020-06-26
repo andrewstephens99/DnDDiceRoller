@@ -94,5 +94,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DnDDiceRollerCore\DnDDiceRollerCore.csproj">
+      <Project>{1bcaedde-2594-42e9-b2c4-01e6d543135b}</Project>
+      <Name>DnDDiceRollerCore</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

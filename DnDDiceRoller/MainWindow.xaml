@@ -5,8 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DnDDiceRoller"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="DnD Dice Roller" Height="500" Width="800">
     <Grid>
-        
+        <Button Content="Roll" HorizontalAlignment="Left" Margin="22,32,0,0" VerticalAlignment="Top" Width="182" Click="TestDie" RenderTransformOrigin="0.51,0.556" Height="44"></Button>
+        <Label x:Name="rollOutput" Content="Label" HorizontalAlignment="Left" Margin="22,92,0,0" VerticalAlignment="Top" Height="33" Width="182" Background="White" FontFamily="Rockwell" FontSize="20" FontWeight="Bold"/>
+
     </Grid>
 </Window>
